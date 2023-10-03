@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Landing Page2.0</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="content">
+      <div class="right-wrapper">
+        <p class="text">
+          This is a fake light show! This event will be held at Lorem, ipsum
+          dolor. Be prepared for one of the Lorem ipsum dolor sit amet. On Lorem
+          ipsum dolor sit amet consectetur.
+        </p>
+        <div class="call-to-action">
+          <span>Reserve your seat <em>now!</em></span>
+          <span><em>Lets Do This!</em></span>
+        </div>
+        <div class="form-whole">
+          <div class="form-container-left">
+            <form>
+              <fieldset>
+                <label for="first-name" required>First Name</label>
+                <input
+                  type="text"
+                  id="first-name"
+                  placeholder="Type your first name"
+                  required />
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Type@your.email"
+                  required />
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Password"
+                  minlength="6"
+                  maxlength="12"
+                  required />
+              </fieldset>
+            </form>
+            <button class="join">Join the Party</button>
+          </div>
+          <div class="form-container-right">
+            <form>
+              <fieldset>
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  id="last-name"
+                  placeholder="Last Name"
+                  required />
+                <label for="phone-num">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone-num"
+                  placeholder="867-5309"
+                  required />
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" required />
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="left-wrapper">
+        <div class="dj">
+          <img
+            class="dj-icon"
+            src="./assets/dj.png"
+            alt="animated dj for light show" />
+        </div>
+        <img
+          class="left-img"
+          src="./assets/light-show.jpg"
+          alt="Image of lights credit to Shubham Dhage on Unsplash" />
+        <span class="shout-out">Photo by Shubham Dhage </span>
+      </div>
+    </div>
+  </body>
+</html>

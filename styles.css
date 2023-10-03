@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Montserrat:wght@500&family=Roboto&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.right-wrapper {
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-wrapper span {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+span + span {
+  margin-top: 2rem;
+}
+
+.form-whole {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  margin-top: 10%;
+}
+
+.form-container-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+fieldset {
+  row-gap: 0.3rem;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+fieldset input {
+  width: 14rem;
+  height: 1.3rem;
+  border-radius: 0.3rem;
+  border-color: aquamarine;
+  box-shadow: 1px 1px 4px black;
+}
+
+input:focus {
+  transform: scale(1.1);
+  background-color: aquamarine;
+}
+
+input:invalid {
+  border: 1px dotted red;
+  background-color: rgb(254, 0, 0, 0.6);
+}
+
+input:valid {
+  background-color: greenyellow;
+}
+
+button {
+  margin-top: 2rem;
+  width: 8rem;
+  height: 2.2rem;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 4px black;
+  background-color: rgb(74, 2, 111);
+  color: aquamarine;
+}
+
+button:hover {
+  background-color: rgb(35, 0, 53);
+}
+
+.left-wrapper {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+}
+
+.dj {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dj-icon {
+  width: 20vh;
+  height: 20vh;
+  opacity: 0.65;
+  position: absolute;
+  z-index: 3;
+  border-radius: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.dj-icon:hover {
+  transform: scale(4.7);
+  opacity: 1;
+  transition: 1.5s;
+}
+
+.left-img {
+  position: absolute;
+  height: 100vh;
+  width: 50vw;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+}
+
+.shout-out {
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 4;
+}
